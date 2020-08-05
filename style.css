@@ -1,14 +1,79 @@
-ul {
+#cabeçalho {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	background-color: white;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
+li {
+	float: right;
+}
 li a {
 	display: block;
-	width: 60px;
+	color: black;
+	padding: 14px 16px; 
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
 }
 li a:hover {
-	background-color: #555;
-	color: white;
+	background-color: red;
+}
+li:last-child {
+  border-bottom: none;
+}
+ .active {
+  background-color: #4CAF50;
+  color: white;
+}
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 130px;
+	margin-bottom: auto; 
+	width: 272px;
+	}
+#fname{
+	display: block;
+	margin-left: 370px;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: auto; 
+	width: 575px;
+	color: black;
+	}
+#search{
+	display: inline-block;
+	margin-left: 575px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: auto;
+	border-radius: 10px;
+}
+#lucky{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: auto;
+	border-radius: 10px;
+}
+input{
+	border-radius: 25px;
+	height: 40px;
+}
+#rodapé {
+	list-style-type: none;
+	margin: -10px;
+	padding: 0;
+	background-color: white;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }

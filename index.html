@@ -1,42 +1,36 @@
 <!DOCTYPE html>
-<style>
-ul {
-	list-style-type: none;
-	margin: -10px;
-	padding: 0;
-	background-color: #333;
-	width: 105%;
-	height: 5%;
-	position: fixed;
-	overflow: hidden;
-}
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body>
+<header>
+	<ul id="cabeçalho">
+		<li><a href="Me"><img src="https://www.vhv.rs/dpng/d/288-2885730_french-bulldog-the-puppy-training-handbook-french-bulldog.png" width="25px" alt="My photo"></a></li>		
+		<li><a href="More"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="margin-top:5px;" width="35px" alt="Google logo"></a></li>		
+		<li><a href="Images">Images</a></li>
+		<li><a href="Gmail">Gmail</a></li>
+	</ul>
+</header>
+<div id="logo">
+	<a href="https://www.google.com">	
+		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+	</a>
+</div>
 
-li {
-	float: left;
-}
-li a {
-	display: block;
-	color: white;
-	padding: 14px 16px; 
-	text-decoration: none;
-	text-align: center;
-	border-bottom: 1px solid #555;
-
-}
-li a:hover {
-	background-color: #111;
-}
-li:last-child {
-  border-bottom: none;
-}
- .active {
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-<ul>
-	<li><a href="default.asp">Home</a></li>
-	<li><a href="news.asp">News</a></li>
-	<li><a href="contact.asp">Contact</a></li>
-	<li><a href="about.asp">About</a></li>
-</ul>
+<form action="search" method="get">
+  <label for="fname"></label>
+  	<input type="text" id="fname" name="fname">
+  	<input type="submit" id="search" value="Buscar">
+		<input type="submit" id="lucky" value="Estou com sorte">
+</form>
+<footer>
+	<ul id="rodapé">
+		<li><a href="Me"><img src="https://www.vhv.rs/dpng/d/288-2885730_french-bulldog-the-puppy-training-handbook-french-bulldog.png" width="25px" alt="My photo"></a></li>		
+		<li><a href="More"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="margin-top:5px;" width="35px" alt="Google logo"></a></li>		
+		<li><a href="Images">Images</a></li>
+		<li><a href="Gmail">Gmail</a></li>
+	</ul>
+</footer>
+</body>
+</html>
