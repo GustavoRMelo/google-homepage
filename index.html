@@ -6,10 +6,13 @@
 <body>
 <header>
 	<ul id="cabeçalho">
-		<li><a href="Me"><img src="https://www.vhv.rs/dpng/d/288-2885730_french-bulldog-the-puppy-training-handbook-french-bulldog.png" width="25px" alt="My photo"></a></li>		
-		<li><a href="More"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="margin-top:5px;" width="35px" alt="Google logo"></a></li>		
-		<li><a href="Images">Images</a></li>
-		<li><a href="Gmail">Gmail</a></li>
+		<li class="lista"><a href="Me" style="float: right"><img src="https://www.vhv.rs/dpng/d/288-2885730_french-bulldog-the-puppy-training-handbook-french-bulldog.png" width="25px" alt="My photo"></a></li>		
+		<li><a href="More" style="float: right"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="margin-top:5px;" width="35px" alt="Google logo"></a></li>		
+		<li><a href="Images" style="float: right">Images</a></li>
+		<li><a href="Gmail" style="float: right">Gmail</a></li>
+		<li><a href="About" style="float: left">About</a></li>		
+		<li><a href="Store" style="float: left">Store</a></li>
+		
 	</ul>
 </header>
 <div id="logo">
@@ -20,16 +23,18 @@
 
 <form action="search" method="get">
   <label for="fname"></label>
-  	<input type="text" id="fname" name="fname">
-  	<input type="submit" id="search" value="Buscar">
-		<input type="submit" id="lucky" value="Estou com sorte">
+  	<input class="barra" type="text" id="fname" name="fname">
+		<input type="submit" id="search" value="Google Search">
+		<input type="submit" id="lucky" value="I'm Feeling Lucky!">
 </form>
 <footer>
 	<ul id="rodapé">
-		<li><a href="Me"><img src="https://www.vhv.rs/dpng/d/288-2885730_french-bulldog-the-puppy-training-handbook-french-bulldog.png" width="25px" alt="My photo"></a></li>		
-		<li><a href="More"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="margin-top:5px;" width="35px" alt="Google logo"></a></li>		
-		<li><a href="Images">Images</a></li>
-		<li><a href="Gmail">Gmail</a></li>
+		<li class="lista"><a href="Settings" style="color:gray">Settings</a></li>		
+		<li><a href="Terms" style="float: right; color:gray;">Terms</a></li>		
+		<li><a href="Images" style="float: right; color:gray;">Privacy</a></li>
+		<li><a href="Advertising" style="float: left; color:gray;">Advertising</a></li>		
+		<li><a href="Business" style="float: left; color:gray;">Business</a></li>
+		<li><a href="HSW" style="float: left; color:gray;">How Search works</a></li>		
 	</ul>
 </footer>
 </body>

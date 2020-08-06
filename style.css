@@ -9,8 +9,15 @@
 	width: 100%;
 }
 
-li {
+.lista {
 	float: right;
+}
+.barra{
+	background: url("lupa.png");
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	background-size: 25px;
+	background-position: 3% 50%;
 }
 li a {
 	display: block;
@@ -21,7 +28,7 @@ li a {
 	font-size: 13px;
 }
 li a:hover {
-	background-color: red;
+	text-decoration: underline;
 }
 li:last-child {
   border-bottom: none;
@@ -43,24 +50,24 @@ li:last-child {
 	margin-left: 370px;
 	margin-right: auto;
 	margin-top: 50px;
-	margin-bottom: auto; 
+	margin-bottom: auto;
+	border-style: solid;
+	border-color: #c3c3c3; 
 	width: 575px;
 	color: black;
 	}
 #search{
 	display: inline-block;
-	margin-left: 575px;
+	margin-left: 550px;
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: auto;
+	position: center;
 	border-radius: 10px;
 }
 #lucky{
 	display: inline-block;
-	margin-left: 10px;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: auto;
+	margin-left: 20px;
 	border-radius: 10px;
 }
 input{
@@ -69,11 +76,17 @@ input{
 }
 #rodapé {
 	list-style-type: none;
-	margin: -10px;
+	margin: 0px;
 	padding: 0;
 	background-color: white;
 	overflow: hidden;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+}
+footer{
+	border-top: 2px solid #e3e3e3;
+}
+form{
+	height: 320px;
 }
